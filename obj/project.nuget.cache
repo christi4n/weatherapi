@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "p3wLNqBaP2L8IPmpGL+fUBGLcVirRrwQaHs0KC/4+B1UpFYKgj5OfoqpNSMqPSu5riINyRFC8zfp6D4qIG+qQA==",
+  "success": true,
+  "projectFilePath": "/Users/christian/Dev/Work/Projets/AzureSamples/AzureDevOps/weatherapi/weatherapi.csproj",
+  "expectedPackageFiles": [
+    "/Users/christian/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/christian/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/christian/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/christian/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/christian/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/christian/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
