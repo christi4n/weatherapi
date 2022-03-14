@@ -7,6 +7,10 @@ terraform {
   }
 }
 
+provider "azurerm" {
+  features {}
+}
+
 # Required resources
 resource "azurerm_resource_group" "tfrg" {
     name = var.resource_group_name
