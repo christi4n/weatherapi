@@ -4,6 +4,8 @@
 
 trigger:
 - master
+pool:
+  name: MacBookPro
 
 resources:
 - repo: self
