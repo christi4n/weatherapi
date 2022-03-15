@@ -5,7 +5,9 @@
 trigger:
 - master
 pool:
-  name: MacBookPro
+  name: Default
+  demands:
+  - Agent.Name -equals MacBookPro
 
 resources:
 - repo: self
