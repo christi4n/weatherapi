@@ -8,6 +8,7 @@ pool:
   name: Default
   demands:
   - Agent.Name -equals MacBookPro
+  - Agent.OS -equals Darwin
 
 resources:
 - repo: self
