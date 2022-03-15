@@ -22,7 +22,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'Dockerhub chrisnt5'
+        containerRegistry: 'ExtCon Dockerhub chrisnt5'
         repository: 'chrisnt5/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
