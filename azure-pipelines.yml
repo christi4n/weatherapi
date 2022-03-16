@@ -28,7 +28,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'ExtCon Dockerhub chrisnt5'
-        repository: 'christi4n/weatherapi'
+        repository: 'chrisnt5/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
