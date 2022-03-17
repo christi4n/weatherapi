@@ -50,3 +50,7 @@ You might need to add you own self-hosted agent. See these two tutorials below. 
 See [Create a self-hosted agent - article one](http://www.muhammetatalay.com/2021/11/self-hosted-agent-on-azure-pipelines.html)
 
 See [Create a self-hosted agent - article two](https://medium.com/@cloudlabs01/running-azure-self-hosted-agent-in-azure-container-instance-aci-ad1fa338d769)
+
+## Make Azure DevOps pipeline knows your secret
+
+Go to pipeline -> Library -> Variable Group to add you four ARM variables and their values. Make sure that the variable ARM_CLIENT_SECRET type is set to secret.
