@@ -7,6 +7,17 @@ terraform {
   }
 }
 
+terraform {
+    # Persists tfstate in an Azure container
+    backend "azurerm" {
+        resource_group_name  = "tf_rg_blobstoragecb"
+        storage_account_name = "tfstorageacccb"
+        container_name       = "tfstate"
+        # Key is the final filename we need to store
+        key                  = "terraform.tfstate"
+    }
+}
+
 provider "azurerm" {
   features {}
 }
